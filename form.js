@@ -9,6 +9,9 @@ function mobileScreen(x) {
     if (x.matches) {
         //if it is a mobile screen.
         //it will run after every 5 seconds if the modal is closed.
+        open.addEventListener('click', () => {
+            modalContainer.classList.add('show');
+        })
         setInterval(() => {
             if (!modalContainer.classList.contains('show')) {
                 modalContainer.classList.add('show');

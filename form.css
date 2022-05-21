@@ -105,4 +105,11 @@ form .forminput{
         display: none;
         margin: 0 auto;
     }
+    p{
+        font-size: 75%;
+    }
+    label{
+        font-size: 70%;
+    }
 }
+
